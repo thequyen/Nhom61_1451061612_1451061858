@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Thông Tin Cá Nhân</title>
+<link rel="stylesheet" type="text/css" href="css/canhancp.css"/>
+</head>
+
+<body>
+	<div class="body">
+    <center><h1>ĐĂNG KÝ THÔNG TIN CÁ NHÂN</h1></center>
+    <form name="xuly" action="" method="post">
+    <table border="1px" cellpadding="1px" cellspacing="1">
+    <tr class="table">
+        <td class="left"><p>Tài khoản </p></td>
+        <td class="right"><p><input type="text" name="taikhoan"></p></td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Mật khẩu</p></td>
+        <td class="right"><p><input type="password" name="matkhau"></p></td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Nhập lại mật khẩu</p></td>
+        <td class="right"><p><input type="password" name="lapmatkhau"></p></td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Email</p></td>
+        <td class="right"><p><input type="text" name="email"></p></td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Họ tên</p></td>
+        <td class="right"><p><input type="text" name="hoten"></p></td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Địa Chỉ</p></td>
+        <td class="right"><p><input type="text" name="diachi"></p></td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Giới tính</p></td>
+        <td class="right"><p><input type="radio" checked name="gioitinh"> nam <input type="radio" name="gioitinh"> nữ</p></td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Quê quán</p></td>
+        <td class="right">
+               <p>
+            <select name="quequan">
+              <option value="AnGiang">An Giang</option>
+              <option value="BaRiaVungTau">Bà Rịa-Vũng Tàu</option>
+              <option value="BacGiang">Bắc Giang</option>
+              <option value="BacCan">Bắc Cạn</option>
+              <option value="BacLieu">Bạc Liêu</option>
+              <option value="BacNinh">Bắc Ninh</option>
+              <option value="BenTre">Bến Tre</option>
+              <option value="BinhDinh">Bình Định</option>
+              <option value="BinhDuong">Bình Dương</option>
+              <option value="BinhPhuoc">Bình Phước</option>
+              <option value="BinhThuan">Bình Thuận</option>
+              <option value="CaMau">Cà Mau</option>
+              <option value="CaoBang">Cao Bằng</option>
+              <option value="CanTho">Cần Thơ</option>
+              <option value="DacLac">Đắc Lắc</option>
+              <option value="DacNong">Đắc Nông</option>
+              <option value="DienBien">Điện Biên</option>
+              <option value="DongThap">Đồng Nai</option>
+              <option value="DongThap">Đồng Tháp</option>
+              <option value="GiaLai">Gia Lai</option>
+              <option value="HaGiang">Hà Giang</option>
+              <option value="HaNam">Hà Nam</option>
+              <option value="HaNoi">Hà Nội</option>
+              <option value="HaTinh">Hà Tĩnh</option>
+              <option value="HaiDuong">Hải Dương</option>
+              <option value="HaiPhong">Hải Phòng</option>
+              <option value="HauGiang">Hậu Giang</option>
+              <option value="HoaBinh">Hòa Bình</option>
+              <option value="HungYen">Hưng Yên</option>
+              <option value="KhanhHoa">Khánh Hòa</option>
+              <option value="KienGiang">Kiên Giang</option>
+              <option value="KonTum">Kon Tum</option>
+              <option value="LaiChau">Lai Châu</option>
+              <option value="LamDong">Lâm Đồng</option>
+              <option value="Lángon">Lạng Sơn</option>
+              <option value="LaoCai">Lào Cai</option>
+              <option value="LongAn">Long An</option>
+              <option value="NamDinh">Nam Định</option>
+              <option value="NgheAn">Nghệ An</option>
+              <option value="NinhBinh">Ninh Bình</option>
+              <option value="NinhThuan">Ninh Thuận</option>
+              <option value="PhuTho">Phú Thọ</option>
+              <option value="PhuYen">Phú Yên</option>
+              <option value="QuangBinh">Quảng Bình</option>
+              <option value="QuangNam">Quảng Nam</option>
+              <option value="QuangNgai">Quảng Ngãi</option>
+              <option value="QuangNinh">Quảng Ninh</option>
+              <option value="QuangTri">Quảng Trị</option>
+              <option value="SocTrang">Sóc Trăng</option>
+              <option value="SonLa">Sơn La</option>
+              <option value="TayNinh">Tây Ninh</option>
+              <option value="ThaiBinh">Thái Bình</option>
+              <option value="ThaiNguyen">Thái Nguyên</option>
+              <option value="ThanhHoa">Thanh Hóa</option>
+              <option value="ThuaThienHue">Thừa Thiên Huế</option>
+              <option value="TienGiang">Tiền Giang</option>
+              <option value="TpHoChiMinh">Tp Hồ Chí Minh</option>
+              <option value="TraVinh">Trà Vinh</option>
+              <option value="TuyeQuang">Tuyên Quang</option>
+              <option value="VinhLong">Vĩnh Long</option>
+              <option value="VinhPhuc">Vĩnh Phúc</option>
+              <option value="YenBai">Yên Bái</option>
+              
+            </select>
+            </p>
+        </td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Sở thích</p></td>
+        <td class="right"><p><input type="checkbox" name="dienanh" checked> Điện ảnh <input type="checkbox" name="amnhac"> Âm nhạc <input type="checkbox" name="thethao"> Thể thao</p></td>
+    </tr>
+    <tr class="table">
+        <td class="left"><p>Ghi chú cá nhân</p></td>
+        <td class="right"><p><textarea style="height:100px;width:auto" name="ghichu"></textarea></p></td>
+    </tr>
+    <tr>
+    <td colspan="2">
+      <center><input type="button" value="Lưu" name="luu"> <input type="reset" value="Nhập lại" name="nhaplai"></center>
+    </td>
+    </tr>
+    </table>
+    </form>
+    </div>
+</body>
+</html>
